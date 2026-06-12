@@ -15,19 +15,19 @@ This GitHub profile uses only simulated or publicly shareable learning data. No 
 
 ## Portfolio repositories
 
-### multisite-harmonization-demo
+### Multisite-harmonization-demo
 
 A simulated workflow showing how site-wise datasets can be mapped to common data elements, cleaned, scored, and merged for multicentric psychosocial research.
 
-### psychometrics-scoring-workflow
+### Psychometrics-scoring-workflow
 
 A simulated scale-scoring and reliability workflow including missing-data checks, reverse scoring, construct scoring, and Cronbach's alpha.
 
-### clinical-feedback-automation-demo
+### Clinical-feedback-automation-demo
 
 A simulated Python workflow for generating structured personalized feedback reports from screening-style data.
 
-### cognitive-task-learning-project
+### Cognitive-task-learning-project
 
 A small learning project using simulated Stroop-style reaction-time data to demonstrate behavioural task cleaning, accuracy filtering, and condition-wise analysis.
 
