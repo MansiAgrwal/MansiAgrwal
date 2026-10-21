@@ -1,37 +1,32 @@
 # Mansi Agarwal
 
-Clinical psychology and mental-health research professional working at the intersection of psychological assessment, intervention research, implementation/process evaluation, and reproducible research workflows.
+Clinical psychology researcher applying for PhD positions in quantitative and methods-focused psychology. My work is about measuring psychological change accurately, and about checking that an analysis method can be trusted before it is used on real participants.
 
-My current methodological interests include:
+**Current role:** Project Research Scientist-I, King George's Medical University (KGMU), Lucknow. I work on a multi-centre randomised controlled trial of psychosocial interventions for common psychological problems.
 
-* assessment harmonization in multicentric psychosocial trials
-* scoring parity and common data elements
-* digital mental-health intervention workflows
-* psychometrics and measurement validity
-* reproducible Python/R pipelines for clinical and behavioural research
-* cognitive-affective methods for studying mental-health constructs
+**Previous role:** Project Research Scientist-I, NIMHANS, Bengaluru. I set up trials and managed data for digital mental health research: REDCap builds, randomisation and multi-site participant onboarding.
 
-This GitHub profile uses only simulated or publicly shareable learning data. No real participant-level, institutional, clinical-trial, REDCap-exported, DRDO, ICMR, NIMHANS, or KGMU data are included.
+**Education:** M.Sc. Clinical Psychology, Kristu Jayanti College, Bengaluru
 
-## Portfolio repositories
+## Research interests
 
-### Multisite-harmonization-demo
+- Measuring how a person's skill or psychological state changes over time
+- Personalized algorithmic environments: whether systems that adapt to a person's responses still let researchers estimate what works
+- Validity and reliability of psychological measures
+- Using simulation to test a method before collecting data
 
-A simulated workflow showing how site-wise datasets can be mapped to common data elements, cleaned, scored, and merged for multicentric psychosocial research.
+## Project
 
-### Psychometrics-scoring-workflow
+### [adaptive-assignment-recovery](https://github.com/MansiAgrwal/adaptive-assignment-recovery)
 
-A simulated scale-scoring and reliability workflow including missing-data checks, reverse scoring, construct scoring, and Cronbach's alpha.
+Personalized digital environments, such as adaptive learning platforms, recommender systems and digital health apps, choose what each person encounters next from their earlier responses. Can researchers still tell which experiences actually change people? This repository tests that question by simulating a personalized environment with a controlled rule-learning task.
 
-### Clinical-feedback-automation-demo
+What I found so far, in one simulated scenario: the choice of analysis model mattered more than whether the algorithm personalized. A model that ignored differences between fast and slow learners got the direction of the effect wrong. A model that allowed for those differences recovered the true effect, including under personalization. The next version will test whether this holds under more realistic conditions.
 
-A simulated Python workflow for generating structured personalized feedback reports from screening-style data.
+## Tools
 
-### Cognitive-task-learning-project
+R (lavaan; still developing) · Python (NumPy, pandas) · SPSS/AMOS · REDCap
 
-A small learning project using simulated Stroop-style reaction-time data to demonstrate behavioural task cleaning, accuracy filtering, and condition-wise analysis.
+---
 
-## Tools and methods
-
-Python, pandas, NumPy, reproducible scripting, REDCap-style data dictionaries, basic psychometric workflows, SPSS/AMOS background, and developing R-based quantitative methods.
-
+Everything shared here uses simulated data. No participant data from any study I have worked on is included.
