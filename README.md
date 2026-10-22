@@ -15,7 +15,7 @@ Clinical psychology researcher applying for PhD positions in quantitative and me
 - Validity and reliability of psychological measures
 - Using simulation to test a method before collecting data
 
-## Project
+## Projects
 
 ### [adaptive-assignment-recovery](https://github.com/MansiAgrwal/adaptive-assignment-recovery)
 
@@ -23,10 +23,18 @@ Personalized digital environments, such as adaptive learning platforms, recommen
 
 What I found so far, in one simulated scenario: the choice of analysis model mattered more than whether the algorithm personalized. A model that ignored differences between fast and slow learners got the direction of the effect wrong. A model that allowed for those differences recovered the true effect, including under personalization. The next version will test whether this holds under more realistic conditions.
 
+### [literature-evidence-pipeline](https://github.com/MansiAgrwal/literature-evidence-pipeline)
+
+Notebooks for mapping a broad literature in a way that can be checked afterwards. The main search ran 153 pre-specified queries across 40 domains in OpenAlex and PubMed. Every paper is traced back to the query that found it, duplicates are merged only on exact matches, and screening queues are stratified so that counterevidence is not crowded out by highly cited papers.
+
+### [personalized-feedback-reports](https://github.com/MansiAgrwal/personalized-feedback-reports)
+
+Personalization in practice. I automated a digital mental-health study's hand-written feedback reports: the code turns each participant's questionnaire answers (K10 distress, coping strategies, and barriers to seeking help) into an individual Word report. The main work was finding the hard cases within the existing report structure before the logic was carried into a larger system for automating intervention delivery. The repository runs on synthetic data.
+
 ## Tools
 
-R (lavaan; still developing) · Python (NumPy, pandas) · SPSS/AMOS · REDCap
+R (lavaan; still developing) · Python (pandas, NumPy, python-docx) · OpenAlex and PubMed APIs · SPSS/AMOS · REDCap
 
 ---
 
-Everything shared here uses simulated data. No participant data from any study I have worked on is included.
+All code here runs on simulated data or published literature records. No participant data from any study I have worked on is included.
