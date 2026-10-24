@@ -23,6 +23,10 @@ Personalized digital environments, such as adaptive learning platforms, recommen
 
 What I found so far, in one simulated scenario: the choice of analysis model mattered more than whether the algorithm personalized. A model that ignored differences between fast and slow learners got the direction of the effect wrong. A model that allowed for those differences recovered the true effect, including under personalization. The next version will test whether this holds under more realistic conditions.
 
+### [prepost-mixed-anova](https://github.com/MansiAgrwal/prepost-mixed-anova)
+
+A Colab notebook for one of the most common designs in intervention research: two or more groups measured before and after. It reads an SPSS file and produces a mixed ANOVA with assumption checks, follow-up tests and effect sizes, saved as Excel and Word reports. A validation script checks its results against independent calculations, and the commit history documents the corrections made after review.
+
 ### [literature-evidence-pipeline](https://github.com/MansiAgrwal/literature-evidence-pipeline)
 
 Notebooks for mapping a broad literature in a way that can be checked afterwards. The main search ran 153 pre-specified queries across 40 domains in OpenAlex and PubMed. Every paper is traced back to the query that found it, duplicates are merged only on exact matches, and screening queues are stratified so that counterevidence is not crowded out by highly cited papers.
