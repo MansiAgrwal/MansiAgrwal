@@ -33,7 +33,7 @@ A re-analysis of public single-neuron recordings from the human medial temporal 
 
 ### [eeg-motor-imagery-decoding](https://github.com/MansiAgrwal/eeg-motor-imagery-decoding)
 
-Can scalp EEG tell imagined left-hand from right-hand movement in a person the decoder has never seen? The notebook uses public PhysioNet recordings from 20 people, with the analysis plan fixed before it was run. The pre-specified test was not significant: a standard CSP decoder averaged 55% balanced accuracy (p = .10). Re-centring each person's EEG covariances before decoding raised this to 64%. The README explains why that figure is still optimistic, and why the side of the screen where the cue appears could account for part of what any of these decoders detect.
+Can scalp EEG tell imagined left-hand from right-hand movement in a person the decoder has never seen? The notebook uses public PhysioNet recordings from 20 people, with the analysis plan fixed before it was run. The pre-specified test was not significant: a standard CSP decoder averaged 55% balanced accuracy (p = .10). Re-centring each person's EEG covariances before decoding raised this to 64%, and in an exploratory check the gain held when the re-centring used only a separate calibration run. Sensorimotor channels alone matched the full montage, but posterior channels also decoded above chance, so the side of the screen where the cue appears may still contribute.
 
 ### [prepost-mixed-anova](https://github.com/MansiAgrwal/prepost-mixed-anova)
 
